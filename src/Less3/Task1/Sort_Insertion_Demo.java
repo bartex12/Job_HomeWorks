@@ -3,6 +3,10 @@ package Less3.Task1;
 public class Sort_Insertion_Demo {
     public static void main(String[] args) {
 
+        //Вычислительная сложность алгоритма сортировки вставкой
+        // Для НЕ отсортированного массива время работы квадратично зависит от размера входных данных
+        // Для отсортированного массива время работы линейно зависит от размера входных данных
+
         //сортируем вставкой
         int[] arrayDemo = {5, -2, 48, 1, -14, 0 };
         sortInsertion(arrayDemo);
@@ -14,6 +18,7 @@ public class Sort_Insertion_Demo {
 
     }
 
+    //Метод сортировки вставкой на примере типа int
     private static int[]  sortInsertion(int[] array){
 
         for (int i = 1; i<array.length; i++ ){
@@ -25,7 +30,6 @@ public class Sort_Insertion_Demo {
             }
             array[j] = x;
         }
-
         return array;
     }
 
@@ -35,5 +39,4 @@ public class Sort_Insertion_Demo {
         }
         System.out.println();
     }
-
 }
