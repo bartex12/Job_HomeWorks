@@ -11,7 +11,7 @@ public class Sort_Insertion_Demo {
         int[] arrayDemo = {5, -2, 48, 1, -14, 0 };
         sortInsertion(arrayDemo);
         printArray(arrayDemo);
-
+        System.out.println("*****************************");
         int[] arrayDemo1 = {5};
         sortInsertion(arrayDemo1);
         printArray(arrayDemo1);
